@@ -1,7 +1,7 @@
 function solution(lottos, winNum) {
-  const answer = [];
-  let count = 0; // 0갯수
-  let win = 0; // 맞은 로또 갯수
+  let answer = [];
+  let count = 0;
+  let win = 0;
   for (let i = 0; i < lottos.length; i++) {
     if (lottos[i] == 0) {
       count++;
@@ -23,7 +23,7 @@ function solution(lottos, winNum) {
 }
 
 function rank(win) {
-  const rank = 0;
+  let rank = 0;
 
   if (win == 6) rank = 1;
   else if (win == 5) rank = 2;
@@ -34,3 +34,4 @@ function rank(win) {
 
   return rank;
 }
+console.log(solution([44, 1, 0, 0, 31, 25], [31, 10, 45, 1, 6, 19]));
