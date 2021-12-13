@@ -15,8 +15,8 @@ function solution(s) {
   let count = 0;
 
   for (let el of numbers) {
-    let b = s.split(el);
-    s = b.join(count);
+    let tmp = s.split(el);
+    s = tmp.join(count);
     count++;
   }
   return Number(s);
