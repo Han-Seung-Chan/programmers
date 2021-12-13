@@ -13,5 +13,5 @@ function solution(left, right) {
   return answer;
 }
 
-//console.log(solution(13, 17));
+console.log(solution(13, 17));
 console.log(solution(24, 27));
