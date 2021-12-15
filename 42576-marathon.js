@@ -15,7 +15,7 @@ function solution(participant, completion) {
   }
 }
 
-//console.log(solution(['leo', 'kiki', 'eden'], ['eden', 'kiki']));
+console.log(solution(['leo', 'kiki', 'eden'], ['eden', 'kiki']));
 console.log(
   solution(['mislav', 'stanko', 'mislav', 'ana'], ['stanko', 'ana', 'mislav'])
 );
