@@ -4,4 +4,4 @@ function solution(a, b) {
 
   return result;
 }
-console.log(solution(5, 24));
+console.log(solution(5, 24)); // "TUE"

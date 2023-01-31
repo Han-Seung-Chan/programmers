@@ -1,0 +1,15 @@
+function solution(s) {
+  let p = 0;
+  let y = 0;
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === 'p' || s[i] === 'P') {
+      p++;
+    } else if (s[i] === 'y' || s[i] === 'Y') {
+      y++;
+    }
+  }
+  return p === y;
+}
+
+console.log(solution('pPoooyY')); // true
+console.log(solution('Pyy')); // false
